@@ -26,7 +26,7 @@ Copy in whichever directory python3.x can pick it up as a module.
 
 If you installed synapse using the Matrix debian repos:
 ```
-sudo curl https://raw.githubusercontent.com/kamax-matrix/matrix-synapse-rest-auth/master/rest_auth_provider.py -o /opt/venvs/matrix-synapse/lib/python3.5/site-packages/rest_auth_provider.py
+sudo curl https://raw.githubusercontent.com/kamax-matrix/matrix-synapse-rest-auth/master/matrix-synapse-rest-auth/rest_auth_provider.py -o /opt/venvs/matrix-synapse/lib/python3.5/site-packages/rest_auth_provider.py
 ```
 If the command fail, double check that the python version still matches. If not, please let us know by opening an issue.
 
@@ -35,7 +35,7 @@ Copy in whichever directory python2.x can pick it up as a module.
 
 If you installed synapse using the Matrix debian repos:
 ```
-sudo curl https://raw.githubusercontent.com/kamax-matrix/matrix-synapse-rest-auth/master/rest_auth_provider.py -o /usr/lib/python2.7/dist-packages/rest_auth_provider.py
+sudo curl https://raw.githubusercontent.com/kamax-matrix/matrix-synapse-rest-auth/master/matrix-synapse-rest-auth/rest_auth_provider.py -o /usr/lib/python2.7/dist-packages/rest_auth_provider.py
 ```
 If the command fail, double check that the python version still matches. If not, please let us know by opening an issue.
 
